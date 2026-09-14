@@ -8,6 +8,8 @@
   --rule-strong: rgba(233, 228, 216, 0.22);
   --green: #6fae93;
   --rust: #cf9a5f;
+  --blue: #6f93c9;
+  --violet: #9b8fc0;
   --muted: #948d80;
 }
 
@@ -156,14 +158,24 @@ h1, h2, h3 {
 
 .doc-link {
   font-size: 15px;
-  color: var(--green);
-  border-bottom: 1px solid rgba(111, 174, 147, 0.4);
+  color: var(--blue);
+  border-bottom: 1px solid rgba(111, 147, 201, 0.4);
   padding-bottom: 1px;
 }
 
 .doc-link.fiche {
   color: var(--rust);
   border-bottom-color: rgba(207, 154, 95, 0.4);
+}
+
+.doc-link.dm {
+  color: var(--green);
+  border-bottom-color: rgba(111, 174, 147, 0.4);
+}
+
+.doc-link.ie {
+  color: var(--violet);
+  border-bottom-color: rgba(155, 143, 192, 0.4);
 }
 
 .doc-link.missing {
